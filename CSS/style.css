@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+body{
+    min-height: 100vh;
+}
+.home, .first, .third, .fourth, .sixth{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.second{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.second .txt{
+    text-align: center;
+}
+.second .details ul li{
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+.second .details, .fourth .cards{
+    padding-top: 40px;
+}
+.home{
+    height:300px;
+    background-image: url(/images/bg-header-desktop.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.home img{
+    margin-top: 50px;
+}
+.first .txt, .second .txt, .sixth .txt, .fourth .txt{
+    margin-bottom: 38px;
+}
+.second .details .mylist{
+    font-size: 30px;
+    font-weight: 600;
+} 
+.second .details{
+    padding-left: 50px;
+}
+h2{
+    color: #343131;
+    font-size: 32px;
+}
+p{
+    font-size: 20px;
+    opacity: 0.3;
+}
+.btn-group button{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 25px;
+    border:0;
+    cursor: pointer;
+    color: #fff;
+}
+.ios{
+    background-color: #15B392;
+}
+.mac{
+    background-color: #4379F2;
+}
+.details div{
+    float: left;
+}
+.details .mylist ul{
+    list-style: none;
+}
+.clear-fix{
+    clear: both;
+}
+.third .tablet-img{
+    padding-top: 50px;
+}
+.fourth .item{
+    width:600px;
+}
+.fifth .item{
+    width:300px;
+    padding-left: 150px;
+}
+.cards .item{
+    float: left;
+}
+.sixth .txt{
+    padding-top: 70px;
+}
+.footer{
+    padding: 30px;
+    text-align: center;
+    height:150px;
+    background-color: #F8FAFC;
+    margin-top: 40px;
+}
+.footer .list ul{
+    list-style: none;
+}
+.footer div{
+    width: 300px;
+    float: left;
+}
+.footer .icons li{
+    width:35px;
+    float: left;
+}
+.ios:hover{
+    background-color: #118B50;
+}
+.mac:hover{
+    background-color: #134B70;
+}
